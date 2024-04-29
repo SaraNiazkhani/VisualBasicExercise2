@@ -73,6 +73,18 @@ Partial Class Form1
         Button2.Text = "مربعات"
         Button2.UseVisualStyleBackColor = False
         ' 
+        ' ExitButton
+        ' 
+
+        EndButton.BackColor = Color.Salmon
+        EndButton.Location = New Point(244, 223)
+        EndButton.Name = "ExitButton"
+        EndButton.Size = New Size(80, 30)
+        EndButton.TabIndex = 1
+        EndButton.Text = "خروج"
+        EndButton.UseVisualStyleBackColor = False
+        
+        ' 
         ' TextBox1
         ' 
         TextBox1.Location = New Point(249, 58)
